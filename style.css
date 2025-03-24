@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variables */
+:root {
+
+    --background-color-1: #161918 ;
+    --background-color-2: #1f2221;
+    --background-color-3: rgba(255, 255, 255, .1);
+
+    --color-1: #e9e8ef;
+    --color-2: #f4f4f4;
+    --color-3: rgb(21, 161, 105);
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: var(--background-color-1);
+    width: 100%;
+    height: 100vh;
+
+}
+
+aside {
+
+    background-color: var(--background-color-2);
+    min-height: 100%;
+    width: 70px;
+    padding: 10px 0px;
+    border-radius: 0px 20px 20px 0px;
+    
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction:column;
+    overflow: hidden;
+
+    transition: 0.2s ease-in-out;
+}
+
+aside div img {
+
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50px;
+    
+
+}
+.header div{
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    color: var(--color-1);
+    pointer-events: none;
+    
+    font-size: 30px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+aside div {
+
+    width: 100%;
+
+}
+
+div ul {
+
+    margin-top: -50px;   
+
+}
+
+.main {
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+div ul li a {
+    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 5px 0px;
+    padding: 15px 25px;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--color-2);
+    
+}
+div ul li {
+    
+    list-style: none;
+    
+}
+div ul li a p {
+    
+    padding-left: 3px;
+    
+}
+
+.last{
+    
+    margin-bottom: 20px;
+    
+}
+.last a{
+    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 10px 0px;
+    padding: 15px 25px;
+    border-radius: 15px 15px 15px 15px;
+    
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--color-2);
+    
+}
+
+
+aside:hover {
+    
+width: 250px;
+
+}
+
+div ul li a:active {
+    
+
+    color: var(--color-3);
+    
+}
+div ul li a:hover {
+    
+
+    background-color: var(--background-color-3);
+    
+}
+div a:active {
+    
+    
+    color: var(--color-3);
+    
+}
+div a:hover {
+    
+
+    background-color: var(--background-color-3);
+    
+}
+
+body .content{
+
+    margin-left: 70px;
+    padding: 20px;
+    color: var(--color-1);
+    
+    font-size: 30px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
